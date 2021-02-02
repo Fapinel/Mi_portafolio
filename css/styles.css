@@ -293,7 +293,7 @@ main .contenedor-textos-portafolio{
 
 .contenedor-imagenes{
     display:flex;
-    width: 85%;
+    width: 95%;
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -301,11 +301,11 @@ main .contenedor-textos-portafolio{
 }
 
 .contenedor-imagenes .imagen{
-    width: 32%;
+    width: 33%;
     position: relative;
-    height:250px;
+    height:185px;
     margin-bottom:5px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, .75)
 }
 .imagen img{
     width: 100%;
