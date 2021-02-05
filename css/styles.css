@@ -173,7 +173,7 @@ main .acerca-de{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-	padding: 50px 10% 54px 7%;
+	padding: 82px 11% 80px 10%;
 	position: relative;
     background: #f0f3f5;
     padding: 48px 116;
@@ -197,11 +197,15 @@ main .acerca-de{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 500px;
-    width: 400px;
+    height: 430px;
+    width: 350px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(3, 3, 3);
 }
+
+
 
 .titulo-acerca{
     margin-bottom: 3%;
@@ -498,7 +502,8 @@ footer .formulario .boton-envio:hover{
 
     .about-model img{
     height: 420px;
-    width: 315px;    
+    width: 315px; 
+       
 }
  
 main .acerca-de{
