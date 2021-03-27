@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="with-dev-width, initial-scale-1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <!--<link rel="icon" href="img/window.png">-->
     <title>FP</title>
@@ -27,19 +29,25 @@
         <div class="max-width">
 
             <div class="logo">
-                <a href="#">F<span>P</span></a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#portfolio" class="menu-btn">Portfolio</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <a href="#">F<span>P</span></a>
+            </div>
 
+            <div class="nav__menu" id="nav-menu">
+            <ul class="menu">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               
             </ul>
+        </div>
+            
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
+        
     </nav>
 
     <!-- Home -->
@@ -74,7 +82,9 @@
                     <p class="parrafo-acerca"> Hello, I am Farat Pinel and I studied Computer Systems Engineering,
                          I have a great interest in this world of technologies for what day by day I try to update
                           myself and expand my knowledge. <!--  in areas such as Software Engineer and Web Hacking -->
+                          
                     </p>
+                    <a href="cv/CV-Farat.pdf">Download CV</a>
                 </div>
             </div>
 
@@ -114,16 +124,24 @@
                         <i class="fab fa-react"></i>
                         <h3>React</h3>
                     </div>
+
+                        <!--
                     <div class="icono-individual">
-                        <i class="fab fa-bootstrap"></i>
-                        <h3>Boostrap</h3>
+                        <i class="fab fa-node"></i>
+                        <h3>Node.js</h3>
                     </div>
 
                     <div class="icono-individual">
                         <i class="fab fa-git-alt"></i>
                         <h3>Git</h3>
                     </div>
-               
+
+                   
+                    <div class="icono-individual">
+                        <i class="fab fa-github-square"></i>
+                        <h3>Github</h3>
+                    </div>
+-->
                 </div>
             </div>
         </section>
@@ -133,12 +151,16 @@
 
 
     <!--Contenedor 4to (Portafolio)-->
-    <main>
+
+    
+    
+
+       <main>
         <section class="portafolio" id="portfolio">
             <div class="contenedor">
                 <div class="contenedor-textos-portafolio port">
                     <h2 class="titulo-portafolio">My work</h2>
-                    <!--<p class="parrafo-portafolio">contactame si estás preparado</p>-->
+                   
                 </div>
 
                 <div class="contenedor-imagenes">
@@ -183,7 +205,7 @@
                     </div>
 
                     <div class="imagen">
-                        <a href="" target="_blank">    
+                        <a href="https://github.com/Fapinel/News_Search" target="_blank">    
                         <img src="img/News.PNG" alt="">
                         <div class="overlay">
                             <h2>(React) News Search (API)</h2>
@@ -191,59 +213,41 @@
                     </div>
 
                     <div class="imagen">
-                        <a href="" target="_blank">    
-                        <img src="img/gray.png" alt="">
+                       <a href="https://github.com/Fapinel/Amazon-Clone" target="_blank">    
+                        <img src="img/Amazon-clone.PNG" alt="">
                         <div class="overlay">
-                            <h2>(React) E-Commerce ¡Coming Soon!</h2>
+                            <h2>(React) Amazon Clone </h2>
                         </div>
                     </div>
 
                     <div class="imagen">
-                        <a href="" target="_blank">    
-                        <img src="img/gray.png" alt="">
+                         <a href="https://github.com/Fapinel/Instagram-Clone" target="_blank">   
+                        <img src="img/Instagram-clone.PNG" alt="">
                         <div class="overlay">
-                            <h2>- - -</h2>
+                            <h2>(React) Instagram Clone</h2>
                         </div>
                     </div>
 
                     <div class="imagen">
-                        <a href="" target="_blank">    
+                        <a href="#" target="_blank">  
                         <img src="img/gray.png" alt="">
                         <div class="overlay">
-                            <h2>- - -</h2>
+                            <h2>(React) Facebook Messenger Clone  ¡Coming Soon!</h2>
                         </div>
                     </div>
-
-                    
-                  
-                   
-                  
-                    <!-- <div class="imagen">
-                        <img src="img/1 (2).jpg" alt="">
-                    </div> -->
                 </div>
-
-
-
-
-
-                <!--
-                <div class="contenedor-portafolio" >
-                    <a href="https://www.youtube.com/" target="_blank">   
-                    <img src="img/Mi_Portafolio.PNG" alt="" >
-                </a>
-            
-                    <img src="img/aqua.png" alt="">
-                    <img src="img/aqua.png" alt="">
-                    <img src="img/aqua.png" alt="">
-                    <img src="img/aqua.png" alt="">
-                    <img src="img/aqua.png" alt="">
-                </div>
-            -->
             </div>
         </section>
     </main>
 
+
+
+    
+
+
+
+
+    
 
 
     <!--Contenedor 5to (PIE DE PAGINA (CONTACTO))-->
@@ -315,6 +319,7 @@
     <script src="js/app.js"></script>
     <script src="js/script.js"></script>
 
+   
 </body>
 
 </html>

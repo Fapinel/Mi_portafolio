@@ -5,11 +5,30 @@
     text-decoration: none;
 }
 
+:root{
+    --header-height: 3rem;
+    --font-medium: 500;
+}
+
+/*===== Colores =====*/
+:root{
+    --first-color: #FAFAFF;
+    --white-color: #FAFAFF;
+    --dark-color: #2A3B47;
+    --text-color: #697477;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: #020202;
     
+}
+
+.conte {
+    width: 90%;
+	max-width: 800px;
+	margin: auto;
 }
 
 #particles-js {
@@ -62,6 +81,7 @@ body{
     color:#069370;
     transition: all 0.3s ease;
 }
+
 .navbar.sticky .logo a span{
     color: #fff;
 }
@@ -80,9 +100,40 @@ body{
 .navbar .menu li a:hover{
     color: #069370;
 }
+
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+
+
+
+
+
+.nav__link{
+    position: relative;
+    color: var(--dark-color);
+}
+.nav__link:hover{
+    color: var(--first-color);
+}
+
+/*=== Show menu ===*/
+.show{
+    right: 0;
+}
+
+/*Active menu*/
+.active::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: .18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
+
 /****** FIN DE BARRA DE NAVEGACION (NAVBAR - ESTILO) ******/
 
 
@@ -214,6 +265,24 @@ main .acerca-de{
 .sobremi{
     margin-right: 150px;
 }
+
+.contenedor-texto-acerca a {
+    display: inline-block;
+    background: #069370;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #069370;
+    transition: all 0.3s ease;
+}
+
+.contenedor-texto-acerca a:hover {
+    color: #069370;
+    background: none;
+}
 /***** FIN DEL CONTENEDOR ACERCA DE *****/
 
 
@@ -235,7 +304,7 @@ main .iconos{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    /*flex-flow: row wrap;*/
+   /** flex-flow: row wrap; **/ /* *important key */
     flex-basis: 80%;
 }
 
@@ -271,7 +340,7 @@ main .iconos{
 
 
 /***** INICIO DEL CONTENEDOR PORTAFOLIO *****/
-main .portafolio{
+ main .portafolio{
     background: #f0f3f5;
     padding: 60px 0;
 }
@@ -349,6 +418,8 @@ main .contenedor-textos-portafolio{
     color: #05684f;
     margin-bottom: 45px;
 }
+ 
+
 
 /***** FIN DEL CONTENEDOR PORTAFOLIO *****/
 
